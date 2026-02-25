@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cali-coast-web
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn configuracion.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0 # O la que uses
+      - key: DJANGO_SETTINGS_MODULE
+        value: configuracion.settings
