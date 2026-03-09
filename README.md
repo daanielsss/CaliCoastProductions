@@ -1,8 +1,8 @@
 # CaliCoastProductions
 
-Plataforma web para la presentación de servicios audiovisuales y gestión de cotizaciones para proyectos de producción multimedia.
+Plataforma web desarrollada con **Django** para la presentación de servicios audiovisuales y la gestión de cotizaciones para proyectos de producción multimedia.
 
-El sistema está diseñado para mostrar el portafolio de trabajos visuales y permitir que los clientes puedan **consultar proyectos, visualizar material audiovisual y solicitar cotizaciones personalizadas**.
+El sistema permite mostrar un portafolio visual de trabajos realizados y ofrecer a los clientes una forma sencilla de **consultar proyectos, visualizar contenido y solicitar cotizaciones personalizadas**.
 
 ⚠️ Este proyecto se encuentra actualmente en desarrollo.
 
@@ -25,36 +25,52 @@ El objetivo es crear una experiencia visual atractiva que funcione tanto como **
 
 # Tecnologías Utilizadas
 
+## Backend
+
+- Python
+- Django
+- Django Templates
+- ORM de Django
+- Manejo de formularios y validación de datos
+
 ## Frontend
 
-- React
-- JavaScript
 - HTML
 - CSS
+- JavaScript
+- Bootstrap / estilos personalizados
 
-## Integración
+## Base de Datos
 
-- API REST
-- consumo de servicios backend
-- manejo dinámico de contenido visual
+- SQLite (desarrollo)
+- Compatible con PostgreSQL para producción
+
+## Herramientas
+
+- Git
+- GitHub
 
 ---
 
 # Arquitectura del Sistema
 
-La aplicación funciona como una interfaz web que presenta contenido multimedia y permite interactuar con los servicios de cotización.
+La aplicación está construida utilizando el patrón **MVC (Model–View–Template) de Django**.
 
+```
 Usuario
-│
-▼
-Interfaz Web
-│
-▼
-Servicios Backend (API)
-│
-▼
-Base de Datos / Gestión de Contenido
-
+   │
+   ▼
+Frontend (HTML / CSS / JS)
+   │
+   ▼
+Django Views
+   │
+   ▼
+Modelos (ORM de Django)
+   │
+   ▼
+Base de Datos
+```
 ---
 
 # Funcionalidades
@@ -63,9 +79,7 @@ Base de Datos / Gestión de Contenido
 
 Presentación visual del estudio creativo con acceso a las diferentes secciones del sitio.
 
-Espacio para captura:
-
-![Home](screenshots/home.png)
+<img width="1919" height="1077" alt="imagen" src="https://github.com/user-attachments/assets/77ffb549-e9d1-44f2-ba90-893f805241fd" />
 
 ---
 
@@ -79,9 +93,7 @@ Incluye:
 - presentación visual de proyectos
 - navegación entre trabajos realizados
 
-Espacio para captura:
-
-![Portfolio](screenshots/portfolio.png)
+<img width="1919" height="1077" alt="imagen" src="https://github.com/user-attachments/assets/5a849eb2-d5ff-42fa-96a5-10fc64b82a18" />
 
 ---
 
@@ -95,11 +107,7 @@ Incluye:
 - descripción del proyecto
 - detalles del trabajo realizado
 
-Espacio para capturas:
-
-![Project Detail](screenshots/project-detail-1.png)
-
-![Project Detail](screenshots/project-detail-2.png)
+En proceso......
 
 ---
 
@@ -113,9 +121,6 @@ El sistema permitirá:
 - especificar requerimientos
 - enviar solicitudes de cotización
 
-Espacio para captura futura:
-
-![Quote System](screenshots/quote-system.png)
 
 ---
 
@@ -124,8 +129,8 @@ Espacio para captura futura:
 Sección dedicada a mostrar material visual del portafolio.
 
 Espacio para captura:
+<img width="1919" height="1073" alt="imagen" src="https://github.com/user-attachments/assets/22ae8e34-68a1-4b67-97ce-8096d83d4e81" />
 
-![Gallery](screenshots/gallery.png)
 
 ---
 
@@ -139,9 +144,19 @@ La interfaz está diseñada para adaptarse a distintos dispositivos, garantizand
 
 Espacio para capturas:
 
-![Mobile View](screenshots/mobile-1.png)
+<img width="951" height="1024" alt="imagen" src="https://github.com/user-attachments/assets/caecbc29-a4fa-49ec-9418-ea5d102f87da" />
 
-![Mobile View](screenshots/mobile-2.png)
+
+<img width="928" height="1028" alt="imagen" src="https://github.com/user-attachments/assets/397ead19-8f49-4448-9008-1dac2bbe1b8a" />
+
+
+<img width="922" height="1027" alt="imagen" src="https://github.com/user-attachments/assets/b6213061-1b2e-4971-90e6-1f4796b45d94" />
+
+
+<img width="923" height="1009" alt="imagen" src="https://github.com/user-attachments/assets/59fb5800-dada-48ee-b7c6-a8634b320e16" />
+
+
+<img width="927" height="1015" alt="imagen" src="https://github.com/user-attachments/assets/d1ebc9cf-7149-4331-a7cd-cbf7ac0bcb21" />
 
 ---
 
